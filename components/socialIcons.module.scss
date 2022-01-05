@@ -1,0 +1,25 @@
+.container {
+    margin: 2em 0;
+    text-align: center;
+
+    .containerItens {
+
+        h3 {
+            margin-bottom: 2em;
+            color: var(--title--color);
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            
+
+            a {
+                transition: 1s ease-out;
+                &:hover {
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
